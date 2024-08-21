@@ -36,6 +36,6 @@ func Slice(a []string, nbrs ...int) []string {
 }
 
 func getIndx(i int, s []string) int {
-	st := len(s) - 1 + i
+	st := len(s) + i
 	return st
 }
